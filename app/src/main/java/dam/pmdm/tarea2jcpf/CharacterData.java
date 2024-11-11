@@ -1,5 +1,7 @@
 package dam.pmdm.tarea2jcpf;
 
+import java.util.ArrayList;
+
 public class CharacterData {
     private final int image;
     private final String name;

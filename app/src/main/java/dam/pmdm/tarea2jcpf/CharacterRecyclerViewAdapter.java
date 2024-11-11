@@ -2,6 +2,7 @@ package dam.pmdm.tarea2jcpf;
 
 import android.content.Context;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
@@ -38,11 +39,11 @@ public class CharacterRecyclerViewAdapter extends RecyclerView.Adapter<Character
         holder.bind(currentCharacter);
 
         //Manejar evento click
-        holder.itemView.setOnClickListener(view -> itemClicked(currentCharacter));
+        holder.itemView.setOnClickListener(view -> itemClicked(currentCharacter, view));
     }
 
-    private void itemClicked(CharacterData currentCharacter) {
-        ((MainActivity) context).characterClicked(currentCharacter);
+    private void itemClicked(CharacterData currentCharacter, View view) {
+        ((MainActivity) context).characterClicked(currentCharacter, view);
     }
 
     @Override

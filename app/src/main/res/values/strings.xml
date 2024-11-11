@@ -16,4 +16,12 @@
     <string name="toad_profile_name">Toad</string>
     <string name="toad_profile_desc">Toad es un personaje ficticio de los videojuegos de la franquicia de Mario. Creado por el diseñador de videojuegos japonés, Shigeru Miyamoto, Toad es representado como un ciudadano del Reino Champiñón y es uno de los asistentes más fieles de la Princesa Peach; trabajando constantemente en su favor.</string>
     <string name="imagen_del_personaje">Imagen del personaje</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="detalles_del_personaje">Detalles del personaje</string>
+    <string name="lista_de_personajes">Listado de personajes</string>
+    <string name="desc_imagen_del_personaje">Imagen del personaje</string>
+    <string name="skills">Skills</string>
 </resources>
