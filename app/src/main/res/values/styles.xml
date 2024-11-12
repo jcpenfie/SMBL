@@ -14,5 +14,10 @@
     <style name="fontSizeMini">
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="fontSizeName">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
     </style>
 </resources>

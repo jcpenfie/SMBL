@@ -4,6 +4,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import dam.pmdm.tarea2jcpf.databinding.CharacterCardviewBinding;
 
+/*
+* Creación del binding para los personajes
+*/
 public class CharacterViewHolder extends RecyclerView.ViewHolder {
 
     private final CharacterCardviewBinding binding;

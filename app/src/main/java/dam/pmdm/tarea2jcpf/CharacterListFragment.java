@@ -14,8 +14,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
-import java.util.Objects;
-
 import dam.pmdm.tarea2jcpf.databinding.CharacterListFragmentBinding;
 
 public class CharacterListFragment extends Fragment {
@@ -24,6 +22,7 @@ public class CharacterListFragment extends Fragment {
     private ArrayList<CharacterData> characters;
     private CharacterRecyclerViewAdapter adapter;
 
+    //Método para cuando se cree la vista
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @NonNull ViewGroup container, @NonNull Bundle savedInstaceState){
@@ -33,6 +32,7 @@ public class CharacterListFragment extends Fragment {
         return binding.getRoot();
     }
 
+    //Método para cuando la vista se haya creado
     @Override
     public void onViewCreated(@NonNull View view, @NonNull Bundle savedIntanceState){
         super.onViewCreated(view, savedIntanceState);
@@ -44,6 +44,8 @@ public class CharacterListFragment extends Fragment {
         adapter = new CharacterRecyclerViewAdapter(characters, getActivity());
         binding.characterListRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.characterListRecyclerView.setAdapter(adapter);
+
+        //Mensaje al cargar todos los personajes
         Snackbar.make(requireContext(), view, "Bienvenidos al mundo de Mario", 2000).show();
     }
 
@@ -55,15 +57,16 @@ public class CharacterListFragment extends Fragment {
         characters.add(new CharacterData(R.drawable.mario,"Mario","Mario es un personaje creado por el diseñador de videojuegos Shigeru Miyamoto, de la compañía Nintendo y el protagonista de la franquicia de videojuegos homónima. ", "Salta alto, Héroe del Reino Champiñón"));
         characters.add(new CharacterData(R.drawable.peach,"Peach","La princesa Peach es un personaje de la franquicia de videojuegos de Super Mario de Nintendo. Originalmente creada por Shigeru Miyamoto, Peach es la princesa y gobernante del ficticio Reino Champiñón, donde reside en su castillo junto con Toads y que está constantemente bajo ataque del malvado Bowser.", "Experta del escondite, Experta del disfraz"));
         characters.add(new CharacterData(R.drawable.luigi,"Luigi","Luigi es un personaje ficticio japonés de videojuegos que fue creado por el diseñador de videojuegos japonés Shigeru Miyamoto, que junto a su hermano Mario, forman los personajes principales de la compañía Nintendo.", "Buen hermano, Buen compañero"));
-        characters.add(new CharacterData(R.drawable.toad,"Toad","Toad es un personaje ficticio de los videojuegos de la franquicia de Mario. Creado por el diseñador de videojuegos japonés, Shigeru Miyamoto, Toad es representado como un ciudadano del Reino Champiñón y es uno de los asistentes más fieles de la Princesa Peach; trabajando constantemente en su favor.", "Increible jugando al tenes, Odia las bolas de fuego"));
+        characters.add(new CharacterData(R.drawable.toad,"Toad","Toad es un personaje ficticio de los videojuegos de la franquicia de Mario. Creado por el diseñador de videojuegos japonés, Shigeru Miyamoto, Toad es representado como un ciudadano del Reino Champiñón y es uno de los asistentes más fieles de la Princesa Peach; trabajando constantemente en su favor.", "Increible jugando al tenis, Odia las bolas de fuego"));
     }
 
+    //Método para cuando se entre en la vista
     @Override
     public void onStart() {
         super.onStart();
         //Cambio el título del ActionBar
         if (getActivity() != null) {
-            Objects.requireNonNull(((AppCompatActivity) getActivity()).getSupportActionBar()).setTitle(R.string.lista_de_personajes);
+            ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.lista_de_personajes);
         }
     }
 }

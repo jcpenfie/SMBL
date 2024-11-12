@@ -9,5 +9,6 @@
     <string name="lista_de_personajes">Listado de personajes</string>
     <string name="desc_imagen_del_personaje">Imagen del personaje</string>
     <string name="skills">Skills</string>
-    <string name="ajustes">Ajustes</string>
+    <string name="acercade">Acerca de...</string>
+    <string name="dialog_message">Aplicación desarrollada por Juan Carlos Peña Fierro. Versión 1.0.</string>
 </resources>

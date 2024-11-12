@@ -1,13 +1,15 @@
 package dam.pmdm.tarea2jcpf;
 
-import java.util.ArrayList;
-
+/*
+ * Objeto personaje para su definición de atributos con sus getters
+ */
 public class CharacterData {
     private final int image;
     private final String name;
     private final String description;
     private final String skills;
 
+    //Constructor del personaje
     public CharacterData(int image, String name, String description, String skills) {
         this.image = image;
         this.name = name;
@@ -15,6 +17,8 @@ public class CharacterData {
         this.skills = skills;
     }
 
+
+    //getters de las propiedades de los personajes
     public int getImage() {
         return image;
     }

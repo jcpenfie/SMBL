@@ -1,10 +1,11 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.SMBL" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.SMBL" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="fontFamily">@font/retromario</item>
+        <item name="android:textColor">@color/colorBlack</item>
 
         <!-- SplashScreen cofiguration-->
         <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>

@@ -1,9 +1,12 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.Videoclase2" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.SMBL" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="fontFamily">@font/retromario</item>
+        <item name="android:textColor">@color/colorWhite</item>
     </style>
+
+    <style name="Theme.SMBL" parent="Base.Theme.SMBL" />
 </resources>

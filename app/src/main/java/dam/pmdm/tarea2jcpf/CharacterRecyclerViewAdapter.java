@@ -12,6 +12,9 @@ import java.util.List;
 
 import dam.pmdm.tarea2jcpf.databinding.CharacterCardviewBinding;
 
+/*
+ * Adaptador de la app
+ */
 public class CharacterRecyclerViewAdapter extends RecyclerView.Adapter<CharacterViewHolder> {
     private final List<CharacterData> chracters;
     private final Context context;
@@ -38,7 +41,7 @@ public class CharacterRecyclerViewAdapter extends RecyclerView.Adapter<Character
         CharacterData currentCharacter = this.chracters.get(position);
         holder.bind(currentCharacter);
 
-        //Manejar evento click
+        //Manejar evento click de los items
         holder.itemView.setOnClickListener(view -> itemClicked(currentCharacter, view));
     }
 
