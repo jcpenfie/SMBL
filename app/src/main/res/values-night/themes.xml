@@ -4,7 +4,7 @@
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="fontFamily">@font/retromario</item>
+        <item name="fontFamily">@font/sourgummy</item>
         <item name="android:textColor">@color/colorWhite</item>
     </style>
 
