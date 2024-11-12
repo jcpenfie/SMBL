@@ -6,6 +6,7 @@
     <style name="fontSizeNormal">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/sourgummylight</item>
     </style>
     <style name="fontSizeBig">
         <item name="android:textSize">35sp</item>
@@ -15,6 +16,7 @@
         <item name="android:textSize">15sp</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">@color/colorAccent</item>
+        <item name="fontFamily">@font/sourgummylight2</item>
     </style>
     <style name="fontSizeName">
         <item name="android:textSize">20sp</item>
