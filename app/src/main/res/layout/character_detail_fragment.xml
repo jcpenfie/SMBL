@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="@dimen/m"
     android:gravity="center_horizontal">
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="258dp"
-        android:layout_height="258dp"
+        android:layout_width="@dimen/xxl"
+        android:layout_height="@dimen/xxl"
         android:contentDescription="@string/desc_imagen_del_personaje"
         android:scaleType="centerInside"
         android:paddingTop="?attr/actionBarSize"
@@ -19,7 +19,7 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/xs"
         android:gravity="center"
         android:text="@string/name"
         style="@style/fontSizeBig" />
@@ -28,7 +28,7 @@
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/xs"
         android:gravity="center"
         android:text="@string/description"
         style="@style/fontSizeNormal" />
@@ -37,7 +37,7 @@
         android:id="@+id/skills"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="@dimen/xs"
         android:gravity="center"
         android:text="@string/skills"
         style="@style/fontSizeMini" />
