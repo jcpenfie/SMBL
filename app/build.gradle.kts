@@ -48,5 +48,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(libs.cardview)
     implementation(libs.recyclerview)
-    implementation (libs.navigation.ui.ktx)
+    implementation(libs.navigation.ui)
+    implementation(libs.core.splashscreen)
 }

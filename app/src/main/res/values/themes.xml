@@ -1,8 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.SMBL" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/retromario</item>
+
+        <!-- SplashScreen cofiguration-->
+        <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/applogo</item>
+        <item name="android:windowSplashScreenAnimationDuration">2500</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
     </style>
 
     <style name="Theme.SMBL" parent="Base.Theme.SMBL" />

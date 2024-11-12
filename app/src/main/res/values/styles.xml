@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BackgroundToolbar">
+        <item name="backgroundColor">@color/colorPrimary</item>
+    </style>
+    <style name="fontSizeNormal">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="fontSizeBig">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="fontSizeMini">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

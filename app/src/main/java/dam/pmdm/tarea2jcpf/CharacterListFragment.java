@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -42,6 +44,7 @@ public class CharacterListFragment extends Fragment {
         adapter = new CharacterRecyclerViewAdapter(characters, getActivity());
         binding.characterListRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.characterListRecyclerView.setAdapter(adapter);
+        Snackbar.make(requireContext(), view, "Bienvenidos al mundo de Mario", 2000).show();
     }
 
     //Método para cargar los datos de los personajes
