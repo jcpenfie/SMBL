@@ -18,7 +18,7 @@ public class CharacterDetailsFragment extends Fragment {
     //Método para cuando se cree la vista
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @NonNull ViewGroup container, @NonNull Bundle savedInstaceState){
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,  Bundle savedInstaceState){
         //Inflo el layout para este fragmento
         binding = CharacterDetailFragmentBinding.inflate(inflater, container, false);
         return binding.getRoot();
@@ -26,7 +26,7 @@ public class CharacterDetailsFragment extends Fragment {
 
     //Método para cuando la vista se haya creado
     @Override
-    public void onViewCreated(@NonNull View view, @NonNull Bundle savedIntanceState){
+    public void onViewCreated(@NonNull View view, Bundle savedIntanceState){
         super.onViewCreated(view, savedIntanceState);
 
         //Obtengo los datos de los argumentos que inicia el fragmento
@@ -42,7 +42,7 @@ public class CharacterDetailsFragment extends Fragment {
             binding.skills.setText(skills);
 
             //Mensaje cada vez que se entre para indicar al usuario que personaje se ha seleccionado
-            Toast.makeText(getContext(),"Se ha seleccionado el personaje " + name, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(),getString(R.string.selected_character) + " " + name, Toast.LENGTH_SHORT).show();
 
         }
     }

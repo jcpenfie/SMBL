@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMBL</string>
+    <string name="imagen_del_personaje">Character image</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="detalles_del_personaje">Details of character</string>
+    <string name="lista_de_personajes">List of characters</string>
+    <string name="desc_imagen_del_personaje">Image of the character</string>
+    <string name="skills">Skills</string>
+    <string name="acercade">About...</string>
+    <string name="dialog_message">Application developed by Juan Carlos Peña Fierro. Version 1.0.</string>
+    <string name="wellcomming">Welcome to Mario\'s world</string>
+    <string name="mario_desc">Mario is a character created by video game designer Shigeru Miyamoto, of the Nintendo company and the protagonist of the eponymous video game franchise.</string>
+    <string name="peach_desc">Princess Peach is a character from Nintendo\'s Super Mario video game franchise. Originally created by Shigeru Miyamoto, Peach is the princess and ruler of the fictional Mushroom Kingdom, where she resides in her castle with Toads and which is constantly under attack by the evil Bowser.</string>
+    <string name="luigi_desc">Luigi is a fictional Japanese video game character that was created by Japanese video game designer Shigeru Miyamoto, who along with his brother Mario, form the main characters of the Nintendo company.</string>
+    <string name="toad_desc">Toad is a fictional character from the Mario video game franchise. Created by Japanese video game designer Shigeru Miyamoto, Toad is depicted as a citizen of the Mushroom Kingdom and is one of Princess Peach\'s most loyal attendants; constantly working on her behalf.</string>
+    <string name="mario_skills">Jump high, Hero of the Mushroom Kingdom</string>
+    <string name="peach_skills">Hide and Seek Expert, Disguise Expert</string>
+    <string name="luigi_skills">Good brother, good companion</string>
+    <string name="toad_skills">Amazing at tennis, Hates fireballs</string>
+    <string name="mario_name">Mario</string>
+    <string name="peach_name">Peach</string>
+    <string name="toad_name">Toad</string>
+    <string name="luigi_name">Luigi</string>
+    <string name="selected_character">The character you have selected is</string>
+</resources>

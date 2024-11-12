@@ -8,7 +8,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/cardview_compat_inset_shadow">
+        android:layout_height="@dimen/xl">
 
         <LinearLayout
             android:layout_width="match_parent"
