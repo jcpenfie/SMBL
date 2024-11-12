@@ -7,11 +7,7 @@
         <item name="fontFamily">@font/retromario</item>
         <item name="android:textColor">@color/colorBlack</item>
 
-        <!-- SplashScreen cofiguration-->
-        <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/applogo</item>
-        <item name="android:windowSplashScreenAnimationDuration">2500</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
+
     </style>
 
     <style name="Theme.SMBL" parent="Base.Theme.SMBL" />
