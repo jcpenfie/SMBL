@@ -34,11 +34,13 @@ public class CharacterDetailsFragment extends Fragment {
         if(getArguments() != null){
             String name = getArguments().getString("name");
             String description = getArguments().getString("description");
+            String skills = getArguments().getString("skills");
             int image = getArguments().getInt("image");
 
             binding.name.setText(name);
             binding.description.setText(description);
             binding.image.setImageResource(image);
+            binding.skills.setText(skills);
             Toast.makeText(getContext(),"Se ha seleccionado el personaje " + name, Toast.LENGTH_SHORT).show();
 
         }

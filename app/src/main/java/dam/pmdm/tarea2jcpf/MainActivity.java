@@ -2,10 +2,8 @@ package dam.pmdm.tarea2jcpf;
 
 import android.os.Bundle;
 import android.view.View;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -20,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-
 
         //Inflado de la pantalla ActivytiMain
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
@@ -40,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         bundle.putString("name", currentCharacter.getName());
         bundle.putInt("image", currentCharacter.getImage());
         bundle.putString("description", currentCharacter.getDescription());
-        //todo:skills
+        bundle.putString("skills", currentCharacter.getSkills());
 
         //Navegar al CharacterDetailFragment
         Navigation.findNavController(view).navigate(R.id.characterDetailsFragment, bundle);

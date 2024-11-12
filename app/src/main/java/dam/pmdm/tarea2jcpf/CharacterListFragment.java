@@ -52,10 +52,10 @@ public class CharacterListFragment extends Fragment {
         characters = new ArrayList<>();
 
         //Relleno los datos de los personajes
-        characters.add(new CharacterData(R.drawable.mario,"Mario","Mario es un personaje creado por el diseñador de videojuegos Shigeru Miyamoto, de la compañía Nintendo y el protagonista de la franquicia de videojuegos homónima. "));
-        characters.add(new CharacterData(R.drawable.peach,"Peach","La princesa Peach es un personaje de la franquicia de videojuegos de Super Mario de Nintendo. Originalmente creada por Shigeru Miyamoto, Peach es la princesa y gobernante del ficticio Reino Champiñón, donde reside en su castillo junto con Toads y que está constantemente bajo ataque del malvado Bowser."));
-        characters.add(new CharacterData(R.drawable.luigi,"Luigi","Luigi es un personaje ficticio japonés de videojuegos que fue creado por el diseñador de videojuegos japonés Shigeru Miyamoto, que junto a su hermano Mario, forman los personajes principales de la compañía Nintendo."));
-        characters.add(new CharacterData(R.drawable.toad,"Toad","Toad es un personaje ficticio de los videojuegos de la franquicia de Mario. Creado por el diseñador de videojuegos japonés, Shigeru Miyamoto, Toad es representado como un ciudadano del Reino Champiñón y es uno de los asistentes más fieles de la Princesa Peach; trabajando constantemente en su favor."));
+        characters.add(new CharacterData(R.drawable.mario,"Mario","Mario es un personaje creado por el diseñador de videojuegos Shigeru Miyamoto, de la compañía Nintendo y el protagonista de la franquicia de videojuegos homónima. ", "Salta alto, Héroe del Reino Champiñón"));
+        characters.add(new CharacterData(R.drawable.peach,"Peach","La princesa Peach es un personaje de la franquicia de videojuegos de Super Mario de Nintendo. Originalmente creada por Shigeru Miyamoto, Peach es la princesa y gobernante del ficticio Reino Champiñón, donde reside en su castillo junto con Toads y que está constantemente bajo ataque del malvado Bowser.", "Experta del escondite, Experta del disfraz"));
+        characters.add(new CharacterData(R.drawable.luigi,"Luigi","Luigi es un personaje ficticio japonés de videojuegos que fue creado por el diseñador de videojuegos japonés Shigeru Miyamoto, que junto a su hermano Mario, forman los personajes principales de la compañía Nintendo.", "Buen hermano, Buen compañero"));
+        characters.add(new CharacterData(R.drawable.toad,"Toad","Toad es un personaje ficticio de los videojuegos de la franquicia de Mario. Creado por el diseñador de videojuegos japonés, Shigeru Miyamoto, Toad es representado como un ciudadano del Reino Champiñón y es uno de los asistentes más fieles de la Princesa Peach; trabajando constantemente en su favor.", "Increible jugando al tenes, Odia las bolas de fuego"));
     }
 
     @Override
