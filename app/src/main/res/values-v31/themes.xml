@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.SMBL" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/retromario</item>
+        <item name="android:textColor">@color/colorBlack</item>
+
+        <!-- SplashScreen cofiguration-->
+        <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/applogogrande</item>
+        <item name="android:windowSplashScreenAnimationDuration">2500</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
+    </style>
+</resources>
