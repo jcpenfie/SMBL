@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/characterListFragment"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/home" />
+    </group>
+    <item
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/language_tag">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="@string/English" />
+        </menu>
+    </item>
+</menu>

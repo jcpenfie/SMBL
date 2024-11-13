@@ -7,14 +7,14 @@
     <string name="lista_de_personajes">Listado de personajes</string>
     <string name="desc_imagen_del_personaje">Imagen del personaje</string>
     <string name="skills">Habilidades</string>
-    <string name="acercade">Acerca de...</string>
+    <string name="acercade">Acerca de…</string>
     <string name="dialog_message">Aplicación desarrollada por Juan Carlos Peña Fierro. Versión 1.0.</string>
     <string name="wellcomming">Bienvenidos al mundo de Mario</string>
     <string name="selected_character">Se ha seleccionado el personaje</string>
     <string name="mario_name">Mario</string>
     <string name="mario_desc">Mario es un personaje creado por el diseñador de videojuegos Shigeru Miyamoto, de la compañía Nintendo y el protagonista de la franquicia de videojuegos homónima.</string>
     <string name="mario_skills">Salta alto, Héroe del Reino Champiñón</string>
-    <string name="peach_name">Peach</string>
+    <string name="peach_name">Princesa Peach</string>
     <string name="peach_desc">La princesa Peach es un personaje de la franquicia de videojuegos de Super Mario de Nintendo. Originalmente creada por Shigeru Miyamoto, Peach es la princesa y gobernante del ficticio Reino Champiñón, donde reside en su castillo junto con Toads y que está constantemente bajo ataque del malvado Bowser.</string>
     <string name="peach_skills">Experta del escondite, Experta del disfraz</string>
     <string name="luigi_name">Luigi</string>
@@ -23,4 +23,9 @@
     <string name="toad_name">Toad</string>
     <string name="toad_desc">Toad es un personaje ficticio de los videojuegos de la franquicia de Mario. Creado por el diseñador de videojuegos japonés, Shigeru Miyamoto, Toad es representado como un ciudadano del Reino Champiñón y es uno de los asistentes más fieles de la Princesa Peach; trabajando constantemente en su favor.</string>
     <string name="toad_skills">Increible jugando al tenis, Odia las bolas de fuego</string>
+    <string name="home">Lista de personajes</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="language_tag">Idioma</string>
+    <string name="logo_app">Logo de la App</string>
+    <string name="English" translatable="false">English</string>
 </resources>

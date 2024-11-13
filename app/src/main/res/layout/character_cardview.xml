@@ -36,7 +36,7 @@
                 <TextView
                     android:id="@+id/name"
                     style="@style/fontSizeName"
-                    android:layout_width="124dp"
+                    android:layout_width="167dp"
                     android:layout_height="wrap_content"
                     android:text="@string/name"
                     android:typeface="normal" />

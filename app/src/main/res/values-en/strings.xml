@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SMBL</string>
     <string name="imagen_del_personaje">Character image</string>
     <string name="name">Name</string>
     <string name="description">Description</string>
@@ -8,7 +7,7 @@
     <string name="lista_de_personajes">List of characters</string>
     <string name="desc_imagen_del_personaje">Image of the character</string>
     <string name="skills">Skills</string>
-    <string name="acercade">About...</string>
+    <string name="acercade">About…</string>
     <string name="dialog_message">Application developed by Juan Carlos Peña Fierro. Version 1.0.</string>
     <string name="wellcomming">Welcome to Mario\'s world</string>
     <string name="mario_desc">Mario is a character created by video game designer Shigeru Miyamoto, of the Nintendo company and the protagonist of the eponymous video game franchise.</string>
@@ -20,8 +19,12 @@
     <string name="luigi_skills">Good brother, good companion</string>
     <string name="toad_skills">Amazing at tennis, Hates fireballs</string>
     <string name="mario_name">Mario</string>
-    <string name="peach_name">Peach</string>
+    <string name="peach_name">Pincess Peach</string>
     <string name="toad_name">Toad</string>
     <string name="luigi_name">Luigi</string>
     <string name="selected_character">The character you have selected is</string>
+    <string name="home">List of characters</string>
+    <string name="ajustes">Settings</string>
+    <string name="language_tag">Language</string>
+    <string name="logo_app">App\'s logo</string>
 </resources>
