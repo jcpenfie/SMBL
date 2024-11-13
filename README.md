@@ -16,20 +16,20 @@ Aplicación con Android que muestra un listado de personajes de Super Mario Bros
 
 # Pantallas (Tema claro)
 
-| Lista de personajes                                                                |                     Detalles del personaje                     |                         Menú lateral                          |   Pantalla Splash    |
-|------------------------------------------------------------------------------------|:--------------------------------------------------------------:|:-------------------------------------------------------------:|:--------------------:|
-| ![Primera pantalla de la aplicición, listado de personajes de Super Mario Bros.]() | ![Pantalla de detalles del personaje al que se haya pulsado]() |     ![Pantalla de detalles del personaje seleccionado]()      | ![Pantalla splash]() |
+| Lista de personajes                                                                |                     Detalles del personaje                     |         Menú lateral          |   Pantalla Splash    |
+|------------------------------------------------------------------------------------|:--------------------------------------------------------------:|:-----------------------------:|:--------------------:|
+| ![Primera pantalla de la aplicición, listado de personajes de Super Mario Bros.](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/home_es.png) | ![Pantalla de detalles del personaje al que se haya pulsado](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/details_es.png) | ![Menú lateral tipo Drawer](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/drawer_es.png) | ![Pantalla splash]() |
 
 # Mensajes al usuario
 |                                 Snackbar de bienvenida                                 |                                          Personaje seleccionado                                          | Acerca de...                       |
 |:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|:-----------------------------------|
-| ![Snackbar al cargar la lista de elementos que diga "Bienvenidos al mundo de Mario"]() | ![Toast al abrir la pantalla de detalles, diciendo "Se ha seleccionado el personaje Nombre_personaje"]() | ![Dialog que muestra un mensaje]() |
+| ![Snackbar al cargar la lista de elementos que diga "Bienvenidos al mundo de Mario"](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/welcomming_es.png) | ![Toast al abrir la pantalla de detalles, diciendo "Se ha seleccionado el personaje Nombre_personaje"](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/selecte_es.png) | ![Dialog que muestra un mensaje](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/dialog_es.png) |
 
 # Icono de la app
-![Logo de la aplicación]() | ![AlertDialog que se mostrará al seleccionar "Acerca de..."]() 
+![Logo de la aplicación](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/applogo.png)
 
 # Soporte tema oscuro
-![Pantalla de listado de personajes en modo oscuro]()
+![Pantalla de listado de personajes en modo oscuro](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/darkTheme_es.png)
 
 ## 🚀 Instalación 🚀
 Software necesario:
@@ -62,20 +62,20 @@ Android app that shows a list of Super Mario Bros characters and, when you selec
 ## 🖼️ Images 🖼️
 
 # Screens (Light Theme)
-| List of characters                                                          |                     Character details                      |              Drawer Menu               |   Splash screen    |
-|-----------------------------------------------------------------------------|:----------------------------------------------------------:|:--------------------------------------:|:------------------:|
-| ![First screen of the application, list of Super Mario Bros. characters.]() | ![Details screen of the character that has been clicked]() | ![Selected character details screen]() | ![Splash screen]() |
+| List of characters                                                                                                                                                          |                                                                       Character details                                                                       |                                                               Drawer Menu                                                                |   Splash screen    |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:------------------:|
+| ![First screen of the application, list of Super Mario Bros. characters.](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/home_en.png) | ![Details screen of the character that has been clicked](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/details_en.png) | ![Selected character details screen](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/drawer_en.png) | ![Splash screen]() |
 
 # Messages to the user
-|                              Snackbar de bienvenida                               |                                       Selected character                                        |     Aboout...      |
-|:---------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:------------------:|
-| ![Snackbar when loading the list of items that says "Welcome to Mario's world"]() | ![Toast when opening the details screen, saying "Character Character_Name has been selected"]() | ![About message]() |
+|                                                                                 Snackbar de bienvenida                                                                                  |                                                                                         Selected character                                                                                         |                                                      Aboout...                                                       |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------:|
+| ![Snackbar when loading the list of items that says "Welcome to Mario's world"](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/welcomming_en.png) | ![Toast when opening the details screen, saying "Character Character_Name has been selected"](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/selecte_en.png) | ![About message](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/dialog_en.png) |
 
 # App icon
-![Application logo]()
+![Application logo](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/applogo.png)
 
 # Dark theme support
-![Character list screen in dark mode]()
+![Character list screen in dark mode](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/darkTheme_en.png)
 
 ## 🚀 Installation 🚀
 Software necesario:
