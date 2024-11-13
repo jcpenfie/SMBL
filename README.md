@@ -26,7 +26,7 @@ Aplicación con Android que muestra un listado de personajes de Super Mario Bros
 | ![Snackbar al cargar la lista de elementos que diga "Bienvenidos al mundo de Mario"](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/welcomming_es.png) | ![Toast al abrir la pantalla de detalles, diciendo "Se ha seleccionado el personaje Nombre_personaje"](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/selecte_es.png) | ![Dialog que muestra un mensaje](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/dialog_es.png) |
 
 # Icono de la app
-![Logo de la aplicación](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/applogo.png)
+![Logo de la aplicación|100](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/applogo.png)
 
 # Soporte tema oscuro
 ![Pantalla de listado de personajes en modo oscuro](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/darkTheme_es.png)
