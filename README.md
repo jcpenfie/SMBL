@@ -78,12 +78,12 @@ Android app that shows a list of Super Mario Bros characters and, when you selec
 ![Character list screen in dark mode](https://github.com/jcpenfie/SMBL/blob/master/app/src/main/res/drawable/github%20imgs/darkTheme_en.png)
 
 ## 🚀 Installation 🚀
-Software necesario:
+Required Software:
 1. [Android Studio](https://developer.android.com/studio?hl=es-419)
 2. [Git](https://git-scm.com/)
 3. [Java](https://www.java.com/es/)
 
-Pasos:
+Steps:
 1. Make a clone of the project:
 ```
 git clone https://github.com/jcpenfie/SMBL
@@ -94,7 +94,6 @@ git clone https://github.com/jcpenfie/SMBL
 
 ## 🧑‍💻 Contributions 🧑‍💻
 All the contributions are welcomes.
-
 
 ---
 By: `jcpenfie`
